@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+}
+
+.back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.front {
+    pointer-events: none; /*by using this we not able to select   and text nothing can be clickabke */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.workingarea {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-nav img {
+    height: 50px;
+}
+
+.nav a {
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hero {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
+    transform: translate(-0%, -50%);
+    width: 100%;
+}
+
+.hero-left {
+    min-width: 50%;
+}
+
+.hero-left .elem {
+    position: relative;
+    height: 7vw;
+    overflow: hidden;
+}
+
+.hero-left .elem h1:nth-child(1) {
+    top: 0;
+}
+
+.hero-left .elem h1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: "kajiro";
+    color: #fff;
+    line-height: .9;
+    font-weight: 100;
+    font-size: 9vw;
+}
+
+.hero-left button {
+    pointer-events: all;
+    padding: 0.8vw 2vw;
+    font-family: "kajiro";
+    font-size: 3vw;
+    margin-top: 2vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.hero-left button:hover {
+    background-color: #F0F0F0;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 18%;
+    color: white;
+    /* background-color: salmon; */
+}
+
+.hero-right p {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.hero-right .image-box {
+    width: 100%;
+    height: 130px;
+    background-image: url(https://images.unsplash.com/flagged/photo-1597692818544-c65888d2e749?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3DD);
+    background-size: cover;
+    background-position: 0 30%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-right p:nth-child(3) {
+    margin-bottom: 90px;
+}
