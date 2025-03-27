@@ -12,14 +12,14 @@ This is a modern and interactive landing page featuring hover infinite effects a
 
 ## 🚀 Live Demo
 
-🔗 [View Live Demo](# Modern Landing Page with Interactive Hover Effects
+🔗 [View Live Demo](https://ankitshrikanta15.github.io/Ray.Ban/)
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=Modern+Landing+Page)  
+![Project Banner](https://github.com/user-attachments/assets/d2f8b69f-4eab-454a-8b24-44ab678d4019)  
 *A sleek, interactive landing page with mesmerizing hover effects powered by Shery.js.*
 
 ## 📖 Overview
 
-This project is a **Modern Landing Page** featuring an interactive design with an infinite hover effect, built using HTML, CSS, and JavaScript. It leverages the **Shery.js** library, which enhances visuals with captivating effects and 3D features from **Three.js**. Inspired by a YouTube tutorial, this landing page combines smooth animations and a stylish layout to create an engaging user experience.
+This project is a **Modern Landing Page** featuring an interactive design with an infinite hover effect, built using HTML, CSS, and JavaScript. It leverages the **Shery.js** library, which enhances visuals with captivating effects and 3D features from **Three.js**. This landing page combines smooth animations and a stylish layout to create an engaging user experience.
 
 ## ✨ Features
 
@@ -50,9 +50,10 @@ This project is a **Modern Landing Page** featuring an interactive design with a
 
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/d2f8b69f-4eab-454a-8b24-44ab678d4019)
-
-
-![Landing Page Preview](#) *(Replace with actual screenshots)*
+![image](https://github.com/user-attachments/assets/ab53c95f-7dd8-4ace-b8f4-7ac5b64da9f1)
+![image](https://github.com/user-attachments/assets/33ff9818-8983-45ba-a79b-0be131341abd)
+![image](https://github.com/user-attachments/assets/1c0a4f21-4181-4066-a348-f95626f6dc12)
+![image](https://github.com/user-attachments/assets/a4478196-b1f2-40ee-9a03-21669ab22198)
 
 ## 🛠️ Technologies Used
 
